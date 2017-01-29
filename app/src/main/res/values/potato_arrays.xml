@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="clock_style_choose">
+        <item>Normal Clock</item>
+        <item>Pussy Clock</item>
+        <item>Word Clock</item>
+        <item>Custom Clock</item>
+    </string-array>
+
+    <string-array name="lclock_style_choose">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string-array name="clock_style">
+        <item>Hide</item>
+        <item>Left</item>
+        <item>Center</item>
+        <item>Right</item>
+    </string-array>
+
+    <string-array name="lclock_style">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="clock_font">
+        <item>Bold</item>
+        <item>Condensed</item>
+        <item>Light</item>
+        <item>Light Italic</item>
+        <item>Normal</item>
+    </string-array>
+
+    <string-array name="lclock_font">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="clock_ampm_style">
+        <item>Normal</item>
+        <item>Small</item>
+        <item>Gone</item>
+        <item>Custom size</item>
+    </string-array>
+
+    <string-array name="lclock_ampm_style">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="clock_day_style">
+        <item>Normal</item>
+        <item>Small</item>
+        <item>Gone</item>
+        <item>Custom size</item>
+    </string-array>
+
+    <string-array name="lclock_day_style">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="date_format">
+        <item>06/11/14</item>
+        <item>11/06/14</item>
+        <item>2014-06-11</item>
+        <item>2014-11-06</item>
+        <item>06-11-2014</item>
+        <item>11-06-2014</item>
+        <item>JUN 11</item>
+        <item>JUN 11,2014</item>
+        <item>JUNE 11,2014</item>
+        <item>WED</item>
+        <item>WED 11</item>
+        <item>WED 06/11</item>
+        <item>WED 11/06</item>
+        <item>Custom JAVA format</item>
+    </string-array>
+
+    <string-array name="ldate_format">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+
+</resources>

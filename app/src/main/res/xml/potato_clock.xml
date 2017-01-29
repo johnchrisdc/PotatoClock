@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="parent" >
+    
+    <ListPreference android:title="Clock style"
+	    android:key="clock_style_choosah"
+	    android:entries="@array/clock_style_choose"
+	    android:entryValues="@array/lclock_style_choose"/>
+    
+    <PreferenceCategory
+        android:key="normal_clock"
+    	android:title="Clock settings" >    	    	      	    
+	    
+	    <ListPreference android:title="AM/PM style"
+	        android:key="ampm"
+	        android:entries="@array/clock_ampm_style"
+	        android:entryValues="@array/lclock_ampm_style"/>   
+	    
+	    <ListPreference android:title="Date style"
+			android:key="day"
+	        android:entries="@array/clock_day_style"
+	        android:entryValues="@array/lclock_day_style"/>
+	    
+	    <ListPreference 
+	        android:key="date_format"
+	        android:title="Date format"
+	        android:entries="@array/date_format"
+	        android:entryValues="@array/ldate_format"/>
+    
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="pussy_clock_prefs"
+    	android:title="Pussy clock settings" >
+
+        	<CheckBoxPreference
+			 android:title="Uppercase"
+			 android:key="fuzzy_upper"
+			 android:summary="Disable to use normal text" />
+
+    	        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="normal_clock_prefs"
+    	android:title="Normal clock settings" >
+
+        	<CheckBoxPreference
+				 android:title="Uppercase"
+				 android:key="normal_upper"
+				 android:summary="Disable to use normal text" />
+
+    	        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="custom_clock_prefs"
+    	android:title="Custom clock settings" >
+
+        	<EditTextPreference
+				 android:title="Custom java format"
+				 android:key="custom_format"
+				 android:summary="Custom clock in the house" />
+
+    	        
+    </PreferenceCategory>
+    
+    
+    
+    <PreferenceCategory
+    	android:title="Appearance" >
+    	
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+		    android:key="clock_color"
+		    android:title="Clock color"/>
+    	    
+    	<ListPreference android:title="Alignment" 
+	        android:key="clock_location"
+	         android:entries="@array/clock_style"
+	         android:entryValues="@array/lclock_style"/>
+    	
+    	<ListPreference android:title="Font"
+	        android:entries="@array/clock_font"
+	        android:entryValues="@array/lclock_font"
+	        android:key="clock_font" />
+    	
+    	<CheckBoxPreference
+				 android:title="Animate clock"
+				 android:key="animate"
+				 android:summary="No San Goku here" />
+    	        
+    </PreferenceCategory>    
+
+        
+</PreferenceScreen>
